@@ -103,7 +103,7 @@
     transition: 0.3s;
 }
 
-@media(max-width:768px){
+@media(max-width:600px){
     .contact{
         gap: 50px;
         margin: 50px 70px;
@@ -129,6 +129,7 @@
     }
     .contact-datail{
         gap: 20px;
+        display: inline-flex;
     }
     .contact-datail img{
         width: 25px;

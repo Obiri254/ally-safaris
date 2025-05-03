@@ -21,12 +21,11 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="tooter-bottom-left">&copy 2025 Obiri Anthony, All rights reserved</p>
+        <p className="tooter-bottom-left"> © 2025 Obiri Anthony, All rights reserved</p>
         <div className="footer-bottom-right">
-            <p>Term of service</p>
+            <p>Terms of service</p>
             <p>Privacy policy</p>
             <p>Let's connect</p>
-            
         </div>
       </div>
     </div>
