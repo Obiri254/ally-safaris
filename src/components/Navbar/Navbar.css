@@ -10,15 +10,18 @@
     align-items: center;
     list-style: none;
     gap: 60px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .nav-connect{
-    padding: 18px 35px;
+    padding: 12px 20px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #40c9ff 0.36%, #e81cff 102.06%);
-    font-size: 22px;
+    background: teal;
+    font-size: 18px;
     cursor: pointer;
     transition: 0.5s;
+}
+.nav-connect p{
+    color: white;
 }
 .nav-connect:hover{
     transform: scale(1.05);
@@ -35,7 +38,7 @@
 }
 .anchor-link{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .nav_mob_close{
     display: none;

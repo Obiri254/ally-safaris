@@ -2,27 +2,27 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
-    /* background-image: url("../../assets/tonny.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
+    
 }
-.hero img{
-    margin-top: 15px;
+.background{
+    background-image: url('../../assets/safari.jpg');
+    background-clip: content-box;
+    height: 600px;
+    border-radius: 15px;
+    background-position: bottom;
+    margin: 0px 30px;
 }
-.hero h1{
+
+.background h1{
     text-align: center;
     width: 80%;
     font-size: 80px;
     font-weight: 550;
 }
-.hero h1 span{
-    background: linear-gradient(270deg, #40c9ff 10%, #e81cff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 .hero p{
     width: 60%;
     text-align: center;
@@ -31,11 +31,14 @@
 }
 .hero-action{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     font-size: 22px;
     font-weight: 400;
-    margin-bottom: 30px;
+    background-color: #FFF;
+    margin: 100px 50px 0px 50px;
+    border-radius: 50px;
 }
 .hero-connect{
     padding: 25px 45px;
