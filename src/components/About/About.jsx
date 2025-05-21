@@ -1,14 +1,14 @@
 import React from 'react'
 import './About.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
 import about_profile from '../../assets/about_profile.jpg'
+import location from '../../assets/location-1-1.png'
+import hill from '../../assets/hill-1.png'
 
 const About = () => {
   return (
     <div id='about' className='about'>
       <div className="about-title">
-        <h1>About Me</h1>
-        <img src={theme_pattern} alt="" />
+        <h1>About Us</h1>
       </div>
       <div className="about-sections">
         <div className="about-left">
@@ -16,15 +16,20 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>I am an experienced frontend and backend developer with some years of professional experience in the field. I have also completed many projects for various clients through freelancing</p>
-                <p>My passion for web development is not only reflected in the quality i provide but also the enthuthiasm i bring to each project</p>
+                <h2>Ally Safaris</h2>
+                <p>offers exceptional safari experiences focused on Kenya’s renowned wildlife. Specializing in guided tours we take guests through iconic locations like the Maasai Mara, Lake Nakuru, Amboseli, Samburu, Ol Pejeta and Many More.</p>
             </div>
             <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}}/></div>
-                <div className="about-skill"><p>Express JS</p><hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>Javascript</p><hr style={{width:"60%"}}/></div>
-                <div className="about-skill"><p>Docker</p><hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>API's</p><hr style={{width:"80%"}}/></div>
+                <div className="about-skill">
+                  <img src={location} alt="" />
+                  <h2>Vision</h2>
+                  <p>To be your preferred tours and travel company in East Africa.</p>
+                </div>
+                <div className="about-skill">
+                  <img src={hill} alt="" />
+                  <h2>Mission</h2>
+                  <p>To provide our clients with unforgettable, personalized travel experiences through innovative, reliable, and top notch services.</p>
+                </div>
             </div>
         </div>
       </div>

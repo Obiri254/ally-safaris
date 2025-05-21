@@ -25,8 +25,8 @@ const Navbar = () => {
         <img src={menu_close} onClick={closeMenu} alt="" className="nav_mob_close" />
       <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src="" alt=''/>:<></>}</li>
       <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About us</p></AnchorLink>{menu==="about"?<img src="" alt=''/>:<></>}</li>
-      <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={()=>setMenu("services")}>Reviews</p></AnchorLink>{menu==="services"?<img src="" alt=''/>:<></>}</li>
-      <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Destinations</p></AnchorLink>{menu==="work"?<img src="" alt=''/>:<></>}</li>
+      <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={()=>setMenu("services")}>Destinations</p></AnchorLink>{menu==="services"?<img src="" alt=''/>:<></>}</li>
+      <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Reviews</p></AnchorLink>{menu==="work"?<img src="" alt=''/>:<></>}</li>
       <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact us</p></AnchorLink>{menu==="contact"?<img src="" alt=''/>:<></>}</li>
       </ul>
       <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'><p>Let's Tour</p></AnchorLink></div>
